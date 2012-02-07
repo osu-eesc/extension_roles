@@ -1,0 +1,3 @@
+<?php
+
+include_once('extension_roles.features.inc');
