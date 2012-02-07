@@ -42,16 +42,6 @@ function extension_roles_user_default_permissions() {
     ),
   );
 
-  // Exported permission: access all webform results
-  $permissions['access all webform results'] = array(
-    'name' => 'access all webform results',
-    'roles' => array(
-      '0' => 'administrator',
-      '1' => 'content editor',
-      '2' => 'site manager',
-    ),
-  );
-
   // Exported permission: access content
   $permissions['access content'] = array(
     'name' => 'access content',
@@ -73,26 +63,6 @@ function extension_roles_user_default_permissions() {
       '2' => 'authenticated user',
       '3' => 'content editor',
       '4' => 'site manager',
-    ),
-  );
-
-  // Exported permission: access own webform results
-  $permissions['access own webform results'] = array(
-    'name' => 'access own webform results',
-    'roles' => array(
-      '0' => 'administrator',
-      '1' => 'content editor',
-      '2' => 'site manager',
-    ),
-  );
-
-  // Exported permission: access own webform submissions
-  $permissions['access own webform submissions'] = array(
-    'name' => 'access own webform submissions',
-    'roles' => array(
-      '0' => 'administrator',
-      '1' => 'content editor',
-      '2' => 'site manager',
     ),
   );
 
@@ -491,15 +461,6 @@ function extension_roles_user_default_permissions() {
     ),
   );
 
-  // Exported permission: delete all webform submissions
-  $permissions['delete all webform submissions'] = array(
-    'name' => 'delete all webform submissions',
-    'roles' => array(
-      '0' => 'administrator',
-      '1' => 'site manager',
-    ),
-  );
-
   // Exported permission: delete any page content
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
@@ -540,16 +501,6 @@ function extension_roles_user_default_permissions() {
     ),
   );
 
-  // Exported permission: delete own webform submissions
-  $permissions['delete own webform submissions'] = array(
-    'name' => 'delete own webform submissions',
-    'roles' => array(
-      '0' => 'administrator',
-      '1' => 'content editor',
-      '2' => 'site manager',
-    ),
-  );
-
   // Exported permission: delete revisions
   $permissions['delete revisions'] = array(
     'name' => 'delete revisions',
@@ -564,14 +515,6 @@ function extension_roles_user_default_permissions() {
   $permissions['display drupal links'] = array(
     'name' => 'display drupal links',
     'roles' => array(),
-  );
-
-  // Exported permission: edit all webform submissions
-  $permissions['edit all webform submissions'] = array(
-    'name' => 'edit all webform submissions',
-    'roles' => array(
-      '0' => 'administrator',
-    ),
   );
 
   // Exported permission: edit any page content
@@ -607,16 +550,6 @@ function extension_roles_user_default_permissions() {
   // Exported permission: edit own site_announcement content
   $permissions['edit own site_announcement content'] = array(
     'name' => 'edit own site_announcement content',
-    'roles' => array(
-      '0' => 'administrator',
-      '1' => 'content editor',
-      '2' => 'site manager',
-    ),
-  );
-
-  // Exported permission: edit own webform submissions
-  $permissions['edit own webform submissions'] = array(
-    'name' => 'edit own webform submissions',
     'roles' => array(
       '0' => 'administrator',
       '1' => 'content editor',
