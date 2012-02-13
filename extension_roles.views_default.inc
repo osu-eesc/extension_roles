@@ -479,7 +479,7 @@ function extension_roles_views_default_views() {
     'type' => 'normal',
     'title' => 'View/Edit Content',
     'description' => 'Use to find and edit website content',
-    'weight' => '-20',
+    'weight' => '-50',
     'name' => 'navigation',
   ));
   $handler->override_option('tab_options', array(
