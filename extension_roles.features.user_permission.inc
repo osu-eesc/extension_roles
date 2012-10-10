@@ -54,6 +54,16 @@ function extension_roles_user_default_permissions() {
     ),
   );
 
+  // Exported permission: access extension settings blocks
+  $permissions['access extension settings blocks'] = array(
+    'name' => 'access extension settings blocks',
+    'roles' => array(
+      '0' => 'administrator',
+      '1' => 'content editor',
+      '2' => 'site manager',
+    ),
+  );
+
   // Exported permission: access news feeds
   $permissions['access news feeds'] = array(
     'name' => 'access news feeds',
@@ -198,6 +208,7 @@ function extension_roles_user_default_permissions() {
     'name' => 'administer extension banners',
     'roles' => array(
       '0' => 'administrator',
+      '1' => 'site manager',
     ),
   );
 
@@ -239,6 +250,14 @@ function extension_roles_user_default_permissions() {
   // Exported permission: administer filters
   $permissions['administer filters'] = array(
     'name' => 'administer filters',
+    'roles' => array(
+      '0' => 'administrator',
+    ),
+  );
+
+  // Exported permission: administer google analytics
+  $permissions['administer google analytics'] = array(
+    'name' => 'administer google analytics',
     'roles' => array(
       '0' => 'administrator',
     ),
@@ -301,6 +320,14 @@ function extension_roles_user_default_permissions() {
       '0' => 'administrator',
       '1' => 'content editor',
       '2' => 'site manager',
+    ),
+  );
+
+  // Exported permission: administer page titles
+  $permissions['administer page titles'] = array(
+    'name' => 'administer page titles',
+    'roles' => array(
+      '0' => 'administrator',
     ),
   );
 
@@ -384,6 +411,14 @@ function extension_roles_user_default_permissions() {
     'roles' => array(
       '0' => 'administrator',
       '1' => 'site manager',
+    ),
+  );
+
+  // Exported permission: administer xmlsitemap
+  $permissions['administer xmlsitemap'] = array(
+    'name' => 'administer xmlsitemap',
+    'roles' => array(
+      '0' => 'administrator',
     ),
   );
 
@@ -620,6 +655,14 @@ function extension_roles_user_default_permissions() {
   // Exported permission: select different theme
   $permissions['select different theme'] = array(
     'name' => 'select different theme',
+    'roles' => array(
+      '0' => 'administrator',
+    ),
+  );
+
+  // Exported permission: set page title
+  $permissions['set page title'] = array(
+    'name' => 'set page title',
     'roles' => array(
       '0' => 'administrator',
     ),
